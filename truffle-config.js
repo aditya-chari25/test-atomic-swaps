@@ -3,7 +3,7 @@ const HDWalletProvider = require('@truffle/hdwallet-provider');
 const sepoliaProvider = new HDWalletProvider({
   privateKeys: [
     '3a611998eddcab4b092128ab7d84cbb440c36e1541018a90678b78617820adc7',
-    'e889b2d228dab838d796b3d9f917c20241659be8a47fe118e38c9034e0957598',
+    'd8f26b661d45fe53eb40c7c770ac2869c31eb5caedf502c95e03764785cc8f40',
   ],
   providerOrUrl: 'https://sepolia.infura.io/v3/14fcbf499b1f481a8f222f8bd1b79499' 
 });
@@ -11,9 +11,9 @@ const sepoliaProvider = new HDWalletProvider({
 const binanceProvider = new HDWalletProvider({
   privateKeys: [
     '3a611998eddcab4b092128ab7d84cbb440c36e1541018a90678b78617820adc7',
-    'e889b2d228dab838d796b3d9f917c20241659be8a47fe118e38c9034e0957598',
+    'd8f26b661d45fe53eb40c7c770ac2869c31eb5caedf502c95e03764785cc8f40',
   ],
-  providerOrUrl: 'https://data-seed-prebsc-1-s1.binance.org:8545/'
+  providerOrUrl: 'https://data-seed-prebsc-2-s1.binance.org:8545/'
 });
 
 module.exports = {
