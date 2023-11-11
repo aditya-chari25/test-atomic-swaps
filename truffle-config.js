@@ -13,7 +13,7 @@ const binanceProvider = new HDWalletProvider({
     '3a611998eddcab4b092128ab7d84cbb440c36e1541018a90678b78617820adc7',
     'd8f26b661d45fe53eb40c7c770ac2869c31eb5caedf502c95e03764785cc8f40',
   ],
-  providerOrUrl: 'https://data-seed-prebsc-2-s1.binance.org:8545/'
+  providerOrUrl: 'https://bsc-testnet.public.blastapi.io'
 });
 
 module.exports = {
